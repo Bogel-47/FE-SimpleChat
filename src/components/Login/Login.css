@@ -1,0 +1,60 @@
+/* Login.css */
+
+.login_root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Warna background umum */
+}
+
+.login_form {
+  gap: 20px;
+  min-width: 300px;
+  width: 30%;
+  padding: 20px;
+  border-radius: 20px;
+  flex-direction: column;
+  background-color: #666; /* Warna background form */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  text-align: center; /* Teks di tengah */
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif; /* Ganti dengan font yang diinginkan */
+  font-size: 24px;
+  color: #333; /* Warna teks sambutan */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 16px;
+  margin: 8px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #ccc; /* Warna latar belakang input */
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border: 2px solid #333; /* Warna border saat focus */
+}
+
+input[type="submit"] {
+  font-size: 18px;
+  width: 100%;
+  background-color: #333; /* Warna background tombol submit */
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efek transisi saat hover */
+}
+
+input[type="submit"]:hover {
+  background-color: #1d1d1d; /* Warna background tombol submit saat hover */
+}
